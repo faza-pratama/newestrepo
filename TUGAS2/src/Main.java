@@ -12,7 +12,6 @@ public class Main {
      * Method main yang akan dieksekusi saat program dijalankan.
      *
      *
-     *
      * @param args Argumen baris perintah (command line), tidak digunakan di aplikasi ini.
      */
     public static void main(String[] args) {
