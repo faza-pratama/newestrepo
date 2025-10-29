@@ -18,9 +18,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         KalkulatorIMT kalkulator = new KalkulatorIMT();
-        System.out.println("hallo selamat datang di sistem kalkulator IMT");
+
         System.out.print("Masukkan Nama: ");
         String nama = input.nextLine();
+
+        System.out.println("umur :");
+        int umur = input.nextInt();
 
         System.out.print("Masukkan Berat Badan (kg): ");
         double berat = input.nextDouble();
